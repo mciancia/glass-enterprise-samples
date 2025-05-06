@@ -1,8 +1,14 @@
-# May 7, 2025 Update - Note to self or whoever want to play with glass in modern Android Studio
+# May 7, 2025 Update - Note to self or whoever reads this
 
 Importing harware profile works fine.
+
 Current Android Studio is using much never Java version which has incompatibilites with gradle specified in this project.
-Change JVM used by gradle under Build, Execution, Deployment -> Build Tools -> Gradle to something older (tried with OpenJDK11 on Android studio 2024.3.2 - works fine)
+
+Change JVM used by gradle under
+```
+Build, Execution, Deployment -> Build Tools -> Gradle 
+```
+to something older (tried with OpenJDK11 on Android studio 2024.3.2 - works fine)
 
 
 
